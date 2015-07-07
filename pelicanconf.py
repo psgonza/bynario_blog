@@ -47,3 +47,5 @@ GITHUB_REPO_COUNT = 5
 SIDEBAR_IMAGE = "https://dl.dropboxusercontent.com/u/14814182/blog/roundPic.gif"
 SEARCH_BOX = True
 DISPLAY_FEEDS_ON_MENU = True
+DISPLAY_CATEGORIES_ON_MENU = False
+MENUITEMS = [('Home', '/'), ('Posts', '/category/posts.html')]

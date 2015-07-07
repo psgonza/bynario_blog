@@ -14,7 +14,8 @@ TIMEZONE = 'Europe/Madrid'
 DEFAULT_LANG = u'en'
 
 # Feed generation is usually not desired when developing
-FEED_ALL_ATOM = "atom.xml"
+FEED_ALL_ATOM = "all_atom.xml"
+FEED_RSS = "rss.xml" 
 CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
@@ -32,7 +33,6 @@ PLUGIN_PATHS = ["pelican-plugins"]
 PLUGINS = ['summary', 'liquid_tags.img', 'liquid_tags.video',
            'liquid_tags.include_code', 'liquid_tags.literal','better_codeblock_line_numbering']
 
-#MD_EXTENSIONS = ['fenced_code', 'codehilite', 'extra']
 MD_EXTENSIONS  = [
    'extra',
    'codehilite(linenums=False,css_class=prettyprint,guess_lang=True,use_pygments=True)'
@@ -49,3 +49,4 @@ SEARCH_BOX = True
 DISPLAY_FEEDS_ON_MENU = True
 DISPLAY_CATEGORIES_ON_MENU = False
 MENUITEMS = [('Home', '/'), ('Posts', '/category/posts.html')]
+DEFAULT_CATEGORY = "Posts"

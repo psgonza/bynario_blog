@@ -23,9 +23,6 @@ AUTHOR_FEED_RSS = None
 
 DEFAULT_PAGINATION = 5
 
-# Uncomment following line if you want document-relative URLs when developing
-#RELATIVE_URLS = True
-
 #Bynario
 SUMMARY_MAX_LENGTH = None
 THEME = 'pelican-octopress-theme'
@@ -46,7 +43,7 @@ GITHUB_SHOW_USER_LINK = True
 GITHUB_REPO_COUNT = 5
 SIDEBAR_IMAGE = "https://dl.dropboxusercontent.com/u/14814182/blog/roundPic.gif"
 SEARCH_BOX = True
-DISPLAY_FEEDS_ON_MENU = True
+DISPLAY_FEEDS_ON_MENU = False
 DISPLAY_CATEGORIES_ON_MENU = False
 MENUITEMS = [('Home', '/'), ('Posts', '/category/posts.html'), ('RSS','/rss.xml')]
 DEFAULT_CATEGORY = "Posts"
